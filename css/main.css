@@ -1,0 +1,242 @@
+/***** BASE STYLES *****/
+
+#header, #work, #about, #contact, section {
+  height: 600px;
+  width: 1366px;
+}
+
+h1 {
+  font-family: 'Megrim', cursive;
+  font-size: 72px;
+  color: #887894;
+  text-transform: uppercase;
+
+}
+
+h2 {
+  font-family: 'Megrim', cursive;
+  font-size: 60px;
+}
+
+h3 {
+  font-family: 'Poiret One', cursive;
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+  color: #ffffff;
+  line-height: 36px;
+}
+
+
+
+/***** HEADER *****/
+
+header {
+  background: url('../img/header-background.png');
+}
+
+#header h1 {
+  float: left;
+  margin-top: 120px;
+  margin-left: 300px;
+}
+
+#header nav {
+  font-family: 'Poiret One', cursive;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+  float: right;
+  margin: 50px 50px;
+}
+
+#header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#header li {
+  display: inline-block;
+  margin-right: 1px;
+}
+
+#header a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#header a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#header a:hover {
+  color: #887894;
+}
+/***** WORK *****/
+
+#work {
+  background: url('../img/work-background.png');
+}
+
+#work h2 {
+  color: #db9784;
+  margin-top: 85px;
+  margin-left: 540px;
+  margin-right: 510px;
+  float: left;
+}
+
+#w-gitcolumn {
+  float: left;
+}
+
+#w-git {
+  padding: 60px 50px 0px 152px;
+}
+
+#w-wpcolumn {
+  float: left;
+}
+
+#w-wp {
+  padding: 150px 75px 0px 45px;
+}
+
+#w-htmlcolumn {
+  float: left;
+}
+
+#w-html {
+  padding: 200px 80px 0px 65px;
+}
+
+#w-jscolumn {
+  float: left;
+}
+
+#w-js {
+  padding: 145px 50px 0px 40px;
+}
+
+#w-rubycolumn {
+  float: left;
+}
+
+#w-ruby {
+  padding: 60px 130px 0px 75px;
+}
+
+/***** ABOUT *****/
+
+#about {
+  background: url('../img/about-background.png');
+}
+
+#about h2 {
+  color: #887894;
+  margin: 85px 480px 0px 530px;
+  float: left;
+}
+
+#a-unibox {
+  float: left;
+}
+
+#a-uni {
+  padding: 10px 120px 20px 150px;
+  text-align: right;
+}
+
+#a-bankbox {
+  float: left;
+}
+
+#a-bank {
+  padding: 45px 120px 0px 120px;
+  text-align: left;
+}
+
+#a-artbox {
+  float: left;
+}
+
+#a-art {
+  padding: 10px 100px 60px 180px;
+  text-align: right;
+}
+
+#a-passportbox {
+  float: left;
+}
+
+#a-passport {
+  padding: 65px 40px 0px 240px;
+  text-align: left;
+}
+
+
+/***** CONTACT *****/
+
+#contact {
+  background: url('../img/contact-background.png');
+}
+
+#contact h2 {
+  color: #887894;
+  margin: 85px 550px 0px 560px;
+  float: left;
+}
+
+#contact p {
+  line-height: 40px;
+}
+
+#c-box-img {
+  padding: 10px 25px 50px 120px;
+  float: left;
+}
+
+#c-box-text {
+  padding: 40px 45px 50px 25px;
+  float: left;
+  text-align: center;
+}
+
+#c-icons-left {
+  margin-top: -25px;
+  padding: 0px 15px 0px 0px;
+  float: left;
+  line-height: 190px;
+}
+
+#c-box-options {
+  padding: 10px 10px 0px 0px;
+  float: left;
+  text-align: center;
+}
+
+#contact a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#contact a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  color: #db9784;
+}
+
+#c-icons-right {
+  padding: 140px 15px 50px 5px;
+  float: left;
+}
