@@ -1,6 +1,6 @@
 /***** BASE STYLES *****/
 
-#header, #work, #about, #contact, section {
+header, #work, #about, #contact, section {
   height: 600px;
   width: 1366px;
 }
@@ -36,7 +36,7 @@ p {
 
 /***** HEADER *****/
 
-header {
+#header {
   background: url('../img/header-background.png');
 }
 
@@ -87,7 +87,7 @@ header {
 
 #work h2 {
   color: #db9784;
-  margin-top: 85px;
+  margin-top: 80px;
   margin-left: 540px;
   margin-right: 510px;
   float: left;
@@ -122,15 +122,15 @@ header {
 }
 
 #w-js {
-  padding: 145px 50px 0px 40px;
+  padding: 150px 30px 0px 50px;
 }
 
-#w-rubycolumn {
+#w-pscolumn {
   float: left;
 }
 
-#w-ruby {
-  padding: 60px 130px 0px 75px;
+#w-ps {
+  padding: 60px 100px 0px 65px;
 }
 
 /***** ABOUT *****/
@@ -181,7 +181,6 @@ header {
   text-align: left;
 }
 
-
 /***** CONTACT *****/
 
 #contact {
@@ -198,12 +197,12 @@ header {
   line-height: 40px;
 }
 
-#c-box-img {
+#c-imgbox {
   padding: 10px 25px 50px 120px;
   float: left;
 }
 
-#c-box-text {
+#c-textbox {
   padding: 40px 45px 50px 25px;
   float: left;
   text-align: center;
@@ -216,10 +215,15 @@ header {
   line-height: 190px;
 }
 
-#c-box-options {
+#c-optionsbox {
   padding: 10px 10px 0px 0px;
   float: left;
   text-align: center;
+}
+
+#c-icons-right {
+  padding: 140px 15px 50px 5px;
+  float: left;
 }
 
 #contact a:link {
@@ -234,9 +238,4 @@ header {
 
 #contact a:hover {
   color: #db9784;
-}
-
-#c-icons-right {
-  padding: 140px 15px 50px 5px;
-  float: left;
 }
